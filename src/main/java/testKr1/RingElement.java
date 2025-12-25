@@ -1,5 +1,11 @@
 package testKr1;
 
-public class RingElement {
+public interface RingElement {
+
+    double getNumber();
+
+    RingElement getNextNumber();
+
+    double numberHalve();
 
 }
